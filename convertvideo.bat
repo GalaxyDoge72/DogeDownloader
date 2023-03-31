@@ -1,0 +1,1 @@
+for %%A IN (*.webm) DO ffmpeg -i "%%A" "%%A.mp4"
